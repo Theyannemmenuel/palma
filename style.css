@@ -67,6 +67,11 @@ button:hover {
         font-size: 25px;
         
     }
+    .hero img {
+        width: 164px;
+        margin: -105px 25px -36px;
+        padding:  -6px 6px 9px;
+    }
 
 
     .container{
