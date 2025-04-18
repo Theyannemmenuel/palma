@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/palma.png");
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 80px 20px 40px;
+    color: white;
+    backdrop-filter: blur(5px);
+}
+  
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+  
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+  
+input[type="text"], input[type="email"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+  
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: #45a049;
+}
+  
+
+
+@media (max-width: 1024px) {
+
+   .hero h1 {
+        color:orangered;
+        font-size: 38px;
+        
+    }
+
+
+    .container{
+
+        margin-top: 140px;
+        padding: 1px;
+    }
+
+    .container h1{
+        padding-left: 42px;
+        font-size: 22px;
+        color: orangered;
+    }
+
+    #trip-form{
+
+        padding: 15px 47px 27px;
+    }
+
+    label {
+        padding: 1px 2px 7px;
+    }
+
+
+    button {
+        background-color: orangered;
+        color: white;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+}

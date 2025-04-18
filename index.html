@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voyage Palma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="hero">
+        <h1>VEVITV VACATION 🏖️</h1>
+   </header>
+
+    <div class="container">
+        <h1>Voyage à Palma de Majorque 🇪🇸</h1>
+        <form id="trip-form">
+        <input type="text" id="prenom" placeholder="Prénom" required>
+        <input type="text" id="nom" placeholder="Nom" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <label>
+            <input type="checkbox" id="present"> Je participe au voyage
+        </label>
+        <button type="submit">Valider</button>
+        </form>
+        <p id="confirmation"></p>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
