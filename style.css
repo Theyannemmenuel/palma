@@ -57,28 +57,35 @@ button:hover {
 
 @media (max-width: 1024px) {
 
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
    .hero h1 {
         color:orangered;
-        font-size: 38px;
+        font-size: 25px;
         
     }
 
 
     .container{
 
-        margin-top: 140px;
+        margin-top: 90px;
         padding: 1px;
+        max-width: max-content;
+        box-shadow: 0 0 38px orangered
     }
 
     .container h1{
-        padding-left: 42px;
-        font-size: 22px;
+        padding-left: 68px;
+        font-size: 17px;
         color: orangered;
     }
 
     #trip-form{
 
-        padding: 15px 47px 27px;
+        padding: 0px 42px 0px;
     }
 
     label {
